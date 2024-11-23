@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/*importanto a fonte*/
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --fonte-principal: "Cormorant Garamond", serif;
+    --cor-fonte: white;
+}
+body{
+    background-color: black;
+}
+.cabecalho{
+    background-color: #600d7d;
+    padding: 20px;
+    margin-bottom: 4em;
+}
+.menu_container{
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+}
+.menu_container_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_icon{
+    height: 27px;
+    width: 27px;
+}
+.menu_links{
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte);
+    font-size: 16px;
+    text-decoration: none;
+}
+main{
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte);
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 9em;
+    gap: 12px;
+    margin-bottom: 3em;
+}
+.conteudo_outras_ias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5em;
+    gap: 12px;
+    margin-bottom: 5em;
+}
+.ajuste_ia_icon{
+    height: 300px;
+    width: 300px;
+}
+.ajuste_gif{
+    height: 300px;
+    width: 300px;
+}
+.ajuste_ia_img{
+    height: 327px;
+    width: 708px;
+}
+.titulo{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 0.4em;
+}
+.texto{
+    font-size: 23px;
+    text-align: justify;
+}
+.saiba_mais{
+    text-align: center;
+}
+.saiba_mais_link{
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte);
+    font-size: 23px;
+}
+.link_outras_ias{
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte);
+    font-size: 23px;
+}
+.rodape{
+    margin-top: 4em;
+    padding: 20px;
+    text-align: center;
+    background-color: #600d7d
+}
+.texto_rodape{
+    font-size: 20px;
+    color: darkgray;  
+}
